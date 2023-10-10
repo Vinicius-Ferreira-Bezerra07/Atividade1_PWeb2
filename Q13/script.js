@@ -1,12 +1,10 @@
-let num = []
+let media = 0
 
 for (let i = 0; i < 5; i++) {
-    num.push(parseInt(prompt("insira um numero")))
+    media += parseInt(prompt("Insira um numrero: "))
 }
 
+console.log(media)
+media = media/5
 
-// const num1 = parseInt( prompt("Infore o prieiro numero"))
-// const num2 = parseInt(prompt("Infore o segundo numero"))
-// const num3 = parseInt(prompt("Infore o terceiro numero"))
-// const num4 = parseInt(prompt("Infore o quarto numero"))
-// const num5 = parseInt(prompt("Infore o quinto numero"))
+document.write("A media dos numeros é: ", media)
